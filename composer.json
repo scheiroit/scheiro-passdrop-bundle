@@ -1,0 +1,24 @@
+{
+  "name": "scheiro/passdrop-bundle",
+  "description": "Ein sicheres Passwort-Übergabe-Modul für Contao.",
+  "type": "contao-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SCHEIRO IT-Service",
+      "email": "support@scheiro.de"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "contao/core-bundle": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Scheiro\\PassdropBundle\\": "src/Scheiro/PassdropBundle/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "Scheiro\\PassdropBundle\\ContaoManager\\Plugin"
+  }
+}
